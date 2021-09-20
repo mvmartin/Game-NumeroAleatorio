@@ -13,7 +13,7 @@ function pularLinha() {
     var chute = parseInt(prompt("Digite seu chute!"));
 
     if(chute == numeroPensado){
-        mostra("Você acertou Miseraví!")
+        mostra("Você acertou!")
     }   else{
         mostra("Você Errou, o número pensado foi " + numeroPensado)
     }
